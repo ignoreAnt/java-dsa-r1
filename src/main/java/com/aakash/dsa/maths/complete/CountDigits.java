@@ -34,6 +34,10 @@ public class CountDigits {
         int n1 = 1567;
         int n2 = -255;
         int n3 = 0;
+
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Math.abs(Integer.MIN_VALUE));
         System.out.println(countDigits(n1));
         System.out.println(countDigits(n2));
         System.out.println(countDigits(n3));
