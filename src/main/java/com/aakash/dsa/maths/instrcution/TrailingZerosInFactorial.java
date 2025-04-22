@@ -72,6 +72,11 @@ public class TrailingZerosInFactorial {
             countZeros += num / i;
         }
 
+        // k ; 5^k > n
+        // O(log(5) k)
         return countZeros;
+
+        // TC : O(log(5) k)
+        // AS :
     }
 }
