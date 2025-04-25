@@ -4,6 +4,8 @@ public class CheckPrime {
     public static void main(String[] args) {
         System.out.println(isPrime(19));
         System.out.println(isPrime(9));
+        System.out.println(isPrimeV1(19));
+        System.out.println(isPrimeV1(9));
     }
 
     private static boolean isPrime(int num){
